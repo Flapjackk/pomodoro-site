@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Logo from './components/Logo'
+import Background from './components/Background';
 
 class App extends Component {
   render() {
     return (
       <React.Fragment >
-        <Logo />
+        <Background />
       </React.Fragment>
     );
   }
